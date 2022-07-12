@@ -1,1 +1,1 @@
-# dish-ql
+# Apollo GraphQL server
