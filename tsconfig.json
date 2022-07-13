@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "lib": ["es6"],
+    "allowJs": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "typeRoots": ["src/declaration.d.ts"]
+  },
+  "include": ["src/**/*.ts"]
+}

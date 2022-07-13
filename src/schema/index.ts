@@ -5,6 +5,7 @@ export const typeDefs = gql`
     YES
     NO
   }
+
   type Address {
     street: String!
     city: String!
