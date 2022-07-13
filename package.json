@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "rimraf ./dist && tsc",
-    "start": "npm run build && node --experimental-specifier-resolution=node dist/index.js",
+    "start": "npm run build && node --experimental-specifier-resolution=node --max_old_space_size=400 dist/index.js",
     "dev": "nodemon"
   },
   "keywords": [],
