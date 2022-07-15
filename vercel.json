@@ -1,5 +1,5 @@
 {
   "version": 2,
   "public": true,
-  "redirects": [{ "source": "/(*)", "dest": "/" }]
+  "redirects": [{ "source": "/(*)", "destination": "/" }]
 }
